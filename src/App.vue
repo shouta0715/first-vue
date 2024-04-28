@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
+import basic from '@/components/basic.vue';
+import ref from '@/components/ref.vue';
 </script>
 
 <template>
   <div></div>
-  <HelloWorld msg="Vite + Vue" />
+  <basic msg="Vite + Vue" />
+  <ref />
 </template>
