@@ -3,6 +3,7 @@ import basic from '@/components/basic.vue';
 import ref from '@/components/ref.vue';
 import computed from '@/components/computed.vue';
 import ifComp from '@/components/if.vue';
+import List from '@/components/for.vue';
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import ifComp from '@/components/if.vue';
     <ref />
     <computed />
     <ifComp />
+    <List />
   </div>
 </template>
