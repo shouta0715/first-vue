@@ -6,6 +6,7 @@ import ifComp from '@/components/if.vue';
 import List from '@/components/for.vue';
 import On from '@/components/on.vue';
 import Form from '@/components/form.vue';
+import lifeCycle from '@/components/life-cycle.vue';
 </script>
 
 <template>
@@ -17,5 +18,6 @@ import Form from '@/components/form.vue';
     <List />
     <On />
     <Form />
+    <lifeCycle />
   </div>
 </template>
