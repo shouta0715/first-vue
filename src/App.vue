@@ -4,6 +4,7 @@ import ref from '@/components/ref.vue';
 import computed from '@/components/computed.vue';
 import ifComp from '@/components/if.vue';
 import List from '@/components/for.vue';
+import On from '@/components/on.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import List from '@/components/for.vue';
     <computed />
     <ifComp />
     <List />
+    <On />
   </div>
 </template>

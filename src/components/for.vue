@@ -12,7 +12,7 @@ const { items } = useFor(10);
         <li>
           {{ item.name }}
 
-          <Ref :item="item" />
+          <Ref />
         </li>
       </template>
     </ul>
