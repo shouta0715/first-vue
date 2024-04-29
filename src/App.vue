@@ -5,6 +5,7 @@ import computed from '@/components/computed.vue';
 import ifComp from '@/components/if.vue';
 import List from '@/components/for.vue';
 import On from '@/components/on.vue';
+import Form from '@/components/form.vue';
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import On from '@/components/on.vue';
     <ifComp />
     <List />
     <On />
+    <Form />
   </div>
 </template>
