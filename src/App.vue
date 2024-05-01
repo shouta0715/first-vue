@@ -7,6 +7,7 @@ import List from '@/components/for.vue';
 import On from '@/components/on.vue';
 import Form from '@/components/form.vue';
 import lifeCycle from '@/components/life-cycle.vue';
+import watch from '@/components/watch.vue';
 </script>
 
 <template>
@@ -19,5 +20,6 @@ import lifeCycle from '@/components/life-cycle.vue';
     <On />
     <Form />
     <lifeCycle />
+    <watch />
   </div>
 </template>
